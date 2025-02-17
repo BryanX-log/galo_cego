@@ -1,0 +1,103 @@
+*{
+    transition: 0.2s linear;
+    text-decoration: none;
+    text-transform: capitalize;
+    outline: none;
+    
+}
+a{
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-family: "Roboto", serif;
+    font-size: 1.3rem;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    border-bottom: 0.15rem white solid;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(248, 223, 81, 0.65),rgb(54, 51, 29)), url(./images/background.jpg);
+    padding: 0;
+    margin: 0;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+
+.navbar img{
+    height: 80px;
+    width: 80px;
+    align-items: center;
+    
+}
+.botão{
+    padding: 0.4rem;
+  border: 0.2rem rgb(48, 48, 48) solid;
+  border-radius: 10px;
+  
+  
+}
+.navbar{
+    background-color: rgb(122, 118, 98);
+    border-bottom: 0.4rem rgb(104, 101, 86) solid;
+}
+
+
+.coisas{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    color: white;
+    font-family: "Roboto", serif;
+}
+.coisas p{
+    max-width: 20rem;
+    line-height: 1.8rem;
+}
+.galo{
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    color: white;
+    font-family: "Roboto", serif;
+    gap: 1rem;
+}
+.galo a{
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-family: "Roboto", serif;
+    font-size: 1.3rem;
+    padding: 0.4rem;
+    border: 0.2rem rgb(48, 48, 48) solid;
+    border-radius: 10px;
+}
+.galo a:hover{
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+}
+.video{
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+}
+.video p{
+    font-size: 1.2rem;
+    font-family: "Roboto", serif;
+    font-size: 1.3rem;
+    color: white;
+}
